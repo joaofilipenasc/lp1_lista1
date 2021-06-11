@@ -2,9 +2,9 @@
 
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
-- Nome: *\<insira seu nome aqui>*
-- Email: *\<insira seu email aqui>*
-- Turma: *\<insira sua turma aqui>*
+- Nome: João Filipe do Nascimento e Silva
+- Email: jfnasss@hotmail.com
+- Turma: IMD0030 - T03
 
 # Questões Finalizadas
 
