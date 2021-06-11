@@ -3,7 +3,7 @@
 Preencha os dados abaixo para identificar a autoria do trabalho.
 
 - Nome: João Filipe do Nascimento e Silva
-- Email: jfnasss@hotmail.com
+- Email: joaofilipenasc@outlook.com
 - Turma: IMD0030 - T03
 
 # Questões Finalizadas
