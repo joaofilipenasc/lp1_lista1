@@ -1,16 +1,21 @@
-/*!
- * @brief This code implements the "Soma Vizinhos" programming problem
- * @author selan
- * @data June, 6th 2021
- */
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
+using namespace std;
 
-int main( void )
-{
-    // TODO: Adicione seu código aqui. 
+int main() {
+  int m, n, i, soma = 0;
+  cin >> m;
+  cin >> n;
 
-    return 0;
+  if (n > 0) {
+    for (i = m; i <= n; i++) {
+      soma += i;
+    }
+    cout << soma;
+  }
+  else {
+    for (i = n; i <= m; i++) {
+      soma += i;
+    }
+    cout << soma;
+  }  
 }

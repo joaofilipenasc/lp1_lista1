@@ -1,21 +1,40 @@
-/*!
- * @brief This code implements the Intervalos programming problem
- * @author selan
- * @data June, 6th 2021
- */
-
 #include <iostream>
-using std::cout;
-using std::cin;
-using std::endl;
 #include <iomanip>
+
+using namespace std;
 using std::setprecision;
 
-// Se desejar, crie funções aqui, antes do main().
+int main() {
+  
+  int x;
+  //Intervalo [0;25]
+  int intervalo1 = 0;
+  //Intervalo [25;50]
+  int intervalo2 = 0;
+  //Intervalo [50;75]
+  int intervalo3 = 0;
+  //Intervalo [75;100]
+  int intervalo4 = 0;
 
-int main(void)
-{
-    // TODO: Adicione aqui a sua solução.
+  while(cin >> std::ws >> x) {
+    if(x >= 0 && x < 25) {
+      intervalo1 += 1;
+    }
+    if(x >= 25 && x < 50) {
+      intervalo2 += 1;
+    }
+    if(x >= 50 && x < 75) {
+      intervalo3 += 1;
+    }
+    if(x >= 75 && x < 100) {
+      intervalo4 += 1;
+    }
+  }
 
-    return 0;
+  cout << intervalo1 << endl;
+  cout << intervalo2 << endl;
+  cout << intervalo3 << endl;
+  cout << intervalo4 << endl;
+
+  return 0;
 }
