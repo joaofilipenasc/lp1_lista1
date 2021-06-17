@@ -1,12 +1,15 @@
 #include <iostream>
-using std::cin;
-using std::cout;
+using namespace std;
 
-const int SIZE = 5; // input size.
+int main() {
 
-int main(void)
-{
-    // TODO: Adicione aqui seu código.
-
-    return 0;
+  int num, i, cont = 0;
+  for (i = 0; i < 5; i++) {
+    cin >> num;
+    if (num < 0) {
+      cont++;
+    }
+  }
+  cout << cont;
+  return 0;  
 }
