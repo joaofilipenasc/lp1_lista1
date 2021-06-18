@@ -1,19 +1,37 @@
+
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
 #include "function.h"
 
-/*! 
- * Finds and returns a pair with the first instance of the smallest element
- * and the last instance of the largest element in an array.
- *
- * @param V This is the array-to-pointer decay representing an array.
- * @param n The array's size.
- *
- * @return A pair of indexes to the first smallest and last largest values.
- */
-
-std::pair<int,int> min_max( int V[], size_t n )
+template<class It>
+It min(It primeiro, It ultimo) 
 {
-    // TODO: Adicione aqui sua solução.
+  
+  if(It primeiro = ultimo) {
+    return ultimo;
+  }
 
-    // TODO: Isso é apenas um STUB. Substitua com seu retorno correto.
-    return { -1, -1 };
+  It menor = primeiro;
+  ++primeiro;
+  
+  for(; primeiro != ultimo; ++ primeiro) {
+    if(*primeiro < *ultimo) {
+      menor = primeiro;
+    }
+  }
+
+  return menor;
+}
+
+std::pair<int,int> min_max(int V[], size_t n) 
+{
+  
+   
+
+  
+
+  return {-1,-1};
 }
