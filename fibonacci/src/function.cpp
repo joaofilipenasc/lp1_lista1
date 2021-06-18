@@ -17,12 +17,11 @@ unsigned int fib(unsigned int num)
 std::vector<unsigned int> fib_below_n(unsigned int n) 
 {
     
-    int n = 0;
     int result = 0;
 
     cin >> n;
 
-    for (int i = 0; (result = fib(i)) < k; i++) 
+    for (int i = 0; (result = fib(i)) < result; i++) 
     { 
         cout << result << endl; 
     }               
