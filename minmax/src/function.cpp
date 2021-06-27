@@ -6,8 +6,7 @@ using namespace std;
 #include "function.h"
 
 template<class It>
-It min(It primeiro, It ultimo) 
-{
+It min(It primeiro, It ultimo) {
   
   if(It primeiro = ultimo) {
     return ultimo;
@@ -25,8 +24,9 @@ It min(It primeiro, It ultimo)
   return menor;
 }
 
-std::pair<int,int> min_max(int V[], size_t n) 
-{
+//Em construção 
+
+std::pair<int,int> min_max(int V[], size_t n) {
   
    
 
