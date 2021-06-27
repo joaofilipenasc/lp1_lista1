@@ -51,6 +51,8 @@ int main ()
     int tamanho;
     int array[tamanho];
     
+    cin >> tamanho;
+    
     for (int i = 0; i < tamanho; i++)
     {
         cin >> array[i];
@@ -61,13 +63,15 @@ int main ()
     {
         cout << array[i];
     }
-    std::cout << " ]" <<  std::endl;
+    cout << " ]" << endl;
 
+    /*
     auto new_end = mega_filtro(begin(array), end(array));
 
     std::cout << ">>> Array filtrado  = [ ";
     std::copy( std::begin(array), new_end,  std::ostream_iterator<int>( std::cout, " " ) );
     std::cout << " ]" <<  std::distance(std::begin(A), new_end) << "\n";
+    */
 
     return EXIT_SUCCESS;
 }
